@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Navigate through directory
-        run: cd tdw-felix-scherer
         
       - name: Checkout code
         uses: actions/checkout@v3
@@ -23,7 +20,9 @@ jobs:
           node-version: '22'
           
       - name: Install dependencies
+        working-directory: ./tdw-felix-scherer
         run: npm install
 
       - name: Run lint
+        working-directory: ./tdw-felix-scherer
         run: npm run lint
