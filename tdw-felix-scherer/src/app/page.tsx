@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <h1>Hello World!</h1>
       <h2>This is the edited page.</h2>
+      <div>Let's test the lint pipeline!</div>
       <Link href={"/array-map"}>
         <button>Navigate</button>
       </Link>
