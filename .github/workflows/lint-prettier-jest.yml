@@ -1,4 +1,4 @@
-name: CI/CD Lint and Build
+name: CI/CD Lint, Prettify, Tests and Build
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
 
       - name: Run Jest
         working-directory: ./tdw-felix-scherer
-        run: pnpm run jest
+        run: pnpm run test
