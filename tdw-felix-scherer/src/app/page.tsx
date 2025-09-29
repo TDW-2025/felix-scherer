@@ -10,6 +10,9 @@ export default function Home() {
       <Link href={"/array-map"}>
         <button>Navigate</button>
       </Link>
+      <ol>
+        
+      </ol>
     </div>
   );
 }
