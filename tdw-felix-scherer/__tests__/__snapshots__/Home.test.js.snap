@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Home Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <h1>
+      Hello World!
+    </h1>
+    <h2>
+      This is the edited page.
+    </h2>
+    <div>
+      Let's test the full pipeline!
+    </div>
+    <li>
+      <ul>
+        Lint
+      </ul>
+      <ul>
+        Prettify
+      </ul>
+      <ul>
+        Test
+      </ul>
+    </li>
+    <a
+      href="/array-map"
+    >
+      <button>
+        Navigate
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ArrayMap Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div>
+      <div>
+        Item: First item
+      </div>
+      <div>
+        Item: Second item
+      </div>
+      <div>
+        Item: Third item
+      </div>
+      <div>
+        Item: Fourth item
+      </div>
+    </div>
+    <a
+      href="/"
+    >
+      <button>
+        Homepage
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;

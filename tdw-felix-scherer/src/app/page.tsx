@@ -6,13 +6,15 @@ export default function Home() {
     <div className={styles.page}>
       <h1>Hello World!</h1>
       <h2>This is the edited page.</h2>
-      <div>Let&apos;s test the lint pipeline!</div>
+      <div>Let&apos;s test the full pipeline!</div>
+      <li>
+        <ul>Lint</ul>
+        <ul>Prettify</ul>
+        <ul>Test</ul>
+      </li>
       <Link href={"/array-map"}>
         <button>Navigate</button>
       </Link>
-      <ol>
-        
-      </ol>
     </div>
   );
 }
