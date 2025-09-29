@@ -21,8 +21,16 @@ jobs:
           
       - name: Install dependencies
         working-directory: ./tdw-felix-scherer
-        run: npm install
+        run: pnpm install
 
       - name: Run lint
         working-directory: ./tdw-felix-scherer
-        run: npm run lint
+        run: pnpm run lint
+
+      - name: Run Prettier
+        working-directory: ./tdw-felix-scherer
+        run: pnpm run prettier
+
+      - name: Run Jest
+        working-directory: ./tdw-felix-scherer
+        run: pnpm run jest
