@@ -6,7 +6,7 @@ on:
       - '**'
 
 jobs:
-  lint-and-build:
+  lint-prettify-test-and-build:
     runs-on: ubuntu-latest
 
     steps:
