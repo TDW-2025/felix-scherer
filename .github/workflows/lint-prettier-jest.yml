@@ -3,7 +3,7 @@ name: CI/CD Lint, Prettify, Tests and Build
 on:
   push:
     branches:
-      - '**'
+      - 'main'
 
 jobs:
   lint-prettify-test-and-build:
@@ -37,6 +37,10 @@ jobs:
         working-directory: ./tdw-felix-scherer
         run: pnpm run prettier
 
-      - name: Run Jest
+      - name: Run Tests
         working-directory: ./tdw-felix-scherer
         run: pnpm run test
+
+      - name: Run Buil
+        working-directory: ./tdw-felix-scherer
+        run: pnpm run build
