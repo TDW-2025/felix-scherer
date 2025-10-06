@@ -1,4 +1,4 @@
-name: CI/CD Lint, Prettify, Tests and Build
+name: CI/CD Lint, Prettify, Tests, Build & Deploy
 
 on:
   push:
@@ -33,18 +33,18 @@ jobs:
         working-directory: ./tdw-felix-scherer
         run: pnpm run lint
 
-      - name: Run Prettier
+      - name: Run prettier
         working-directory: ./tdw-felix-scherer
         run: pnpm run prettier
 
-      - name: Run Tests
+      - name: Run tests
         working-directory: ./tdw-felix-scherer
         run: pnpm run test
 
-      - name: Run Build
+      - name: Create build
         working-directory: ./tdw-felix-scherer
         run: pnpm run build
 
-      - name: Run Deploy
+      - name: Deploy to Netlify
         working-directory: ./tdw-felix-scherer
         run: npx netlify-cli deploy --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}} --prod
