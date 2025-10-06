@@ -1,4 +1,4 @@
-[![CI/CD Lint, Prettify, Tests and Build](https://github.com/TDW-2025/felix-scherer/actions/workflows/lint-prettier-jest.yml/badge.svg)](https://github.com/TDW-2025/felix-scherer/actions/workflows/lint-prettier-jest.yml)
+[![CI/CD Lint, Prettify, Tests, Build & Deploy](https://github.com/TDW-2025/felix-scherer/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/TDW-2025/felix-scherer/actions/workflows/ci-cd.yml)
 
 # Technologies and Web Development
 
